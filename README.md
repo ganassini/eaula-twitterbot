@@ -1,2 +1,3 @@
 # eaula-twitterbot
-Bot do Twitter que avisa quando a plataforma e-aula da UFPel sai do ar e quando volta
+
+Bot do Twitter que avisa sempre que a plataforma e-aula da UFPel sai do ar
