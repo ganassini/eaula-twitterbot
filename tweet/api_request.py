@@ -14,6 +14,6 @@ def post_tweet(up: bool):
     auth = tweepy.OAuth1UserHandler(api_key, api_secret, access_token, access_token_secret)
     api = tweepy.API(auth)
     if up:
-        return client.create_tweet(text='eaula voltou 😅😅')
+        return client.create_tweet(text='eaula voltou :)')
     elif not up:
-        return client.create_tweet(text='eaula caiu 😭😭')
+        return client.create_tweet(text='eaula caiu :(')

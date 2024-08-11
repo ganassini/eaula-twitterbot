@@ -3,8 +3,7 @@ from tweet.api_request import post_tweet
 from time import sleep
 from os import system
 
-was_up = True              # True se iniciar o bot com o eaula fora do ar e False se estiver up
-times_ran = 1
+was_up = True # True se iniciar o bot com o eaula fora do ar e False se estiver up
 
 if __name__ == "__main__":
     while True:
@@ -21,9 +20,4 @@ if __name__ == "__main__":
             if was_up:
                 post_tweet(up=False)
                 was_up = False
-        for i in range(1, 60):
-            print(f"{i}s")
-            print(f"{times_ran} execuções")
-            sleep(1)
-            system('cls')
-        times_ran += 1
+
